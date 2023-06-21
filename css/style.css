@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind@1&display=swap');
+* {
+    font-family: 'Hind', sans-serif;
+    text-transform: capitalize;
+}
+.bannerbgimage{
+    background-image: url("/images/card-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    }
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+  
+}
+.bannerTitle{
+    font-size: 5rem;
+    
+    }
+    
+    .bannerDesc{
+    font-size: 2rem;
+     
+    }
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #e894e8;
+    border: 2px solid #adde4c;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover {
+    border: 5px solid #dda0dd;
+}
+
+.card-img-top {
+    height: 50vh;
+}
